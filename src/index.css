@@ -1,0 +1,28 @@
+@import url('@/assets/fonts/fonts.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    font-weight: normal;
+}
+
+body {
+    background: #ffffff;
+    min-height: 100vh;
+    transition: color 0.5s,
+    background-color 0.5s;
+    line-height: 1.6;
+    font-family: 'Inter', 'Poppins', sans-serif !important;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
