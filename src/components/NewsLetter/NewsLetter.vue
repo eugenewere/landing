@@ -1,6 +1,6 @@
 <template>
   <section class=" bg-gray-50 pb-7">
-    <div class=" container py-8  mx-auto  lg:py-16 lg:px-6">
+    <div class=" container py-8  mx-auto  lg:py-16 px-6 lg:px-0">
       <div class="flex items-center flex-wrap">
 
         <div class="w-auto lg:w-[50%] mb-7 lg:mb-0">

@@ -1,6 +1,6 @@
 <template>
-  <section class="container mx-auto bg-white dark:bg-gray-900">
-    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+  <section id="reviews" class=" bg-white bg-custom-image">
+    <div class="container mx-auto py-12 px-6 lg:px-0  lg:py-16 xl:py-24">
       <div class="flex items-center flex-wrap flex-col-reverse lg:flex-row">
 
 
@@ -118,7 +118,7 @@
   </section>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import 'vue3-carousel/dist/carousel.css'
 import {Carousel, Slide} from 'vue3-carousel'
 import {ref} from "vue";
@@ -135,6 +135,6 @@ function prev() {
 </script>
 <style>
 .review_card {
-  @apply rounded-lg flex h-full flex-col justify-between bg-white shadow-sm
+  @apply rounded-lg flex h-full flex-col justify-between shadow-sm
 }
 </style>

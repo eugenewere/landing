@@ -1,6 +1,6 @@
 <template>
-  <section class="container mx-auto">
-    <div class="mx-auto max-w-[1340px] px-4 py-12 sm:px-6 lg:me-0 lg:py-16 lg:pe-0 lg:ps-8 xl:py-24">
+  <section class=" bg-white " id="delivery">
+    <div class="container mx-auto py-12  lg:py-16 xl:py-24">
       <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:items-center lg:gap-16">
         <div class="w-full text-center lg:text-left">
           <h2 class=" mb-4 text-2xl font-extrabold text-center lg:text-left tracking-tight leading-none md:text-3xl xl:text-4xl dark:text-white">

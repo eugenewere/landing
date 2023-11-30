@@ -28,3 +28,11 @@ body {
 .bg-custom-image{
     @apply bg-[url('@/assets/image/background-1.png')] bg-no-repeat bg-center bg-cover
 }
+body{
+    @apply bg-[url('@/assets/image/background-1.png')] bg-no-repeat  bg-top bg-auto
+}
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+}
