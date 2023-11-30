@@ -9,11 +9,13 @@ import Hero2 from "@/components/Hero/Hero2.vue";
 import UserReview from "@/components/Review/UserReview.vue";
 import NewsLetter from "@/components/NewsLetter/NewsLetter.vue";
 import WhatCustomerSay from "@/components/WhatCustomerSay/WhatCustomerSay.vue";
+import JoinPartnership from "@/components/Patnership/JoinPartnership.vue";
+import NewsBlog from "@/components/Blog/NewsBlog.vue";
 </script>
 
 <template>
   <div class="w-fill">
-    <div class="w-full bg-[url('@/assets/image/background-1.png')] bg-no-repeat bg-center bg-cover">
+    <div class="w-full bg-custom-image">
       <NavBar/>
       <Hero/>
     </div>
@@ -23,6 +25,8 @@ import WhatCustomerSay from "@/components/WhatCustomerSay/WhatCustomerSay.vue";
     <Hero2 />
     <UserReview />
     <WhatCustomerSay />
+    <JoinPartnership />
+    <NewsBlog />
     <NewsLetter />
     <Footer />
   </div>

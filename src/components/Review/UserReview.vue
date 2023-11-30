@@ -22,6 +22,11 @@
               Kennington Lane Cafe
             </p>
             <div class="mt-4">
+              <div class="flex flex-wrap pb-4">
+                <kbd v-for="i in  [1,2,3,4,5]" :key="i" class="px-2 py-1.5 mr-2 text-xs font-semibold text-kebu-800 bg-kebu-100 border border-kebu-200 rounded-lg ">
+                  Health {{i}}
+                </kbd>
+              </div>
               <div class="flex gap-0.5 text-kebu-400">
                 <svg
                     class="h-5 w-5"
@@ -98,6 +103,11 @@
               Kennington Lane Cafe
             </p>
             <div class="mt-4">
+              <div class="flex flex-wrap pb-4">
+                <kbd v-for="i in  [1,2,3,4,5]" :key="i" class="px-2 py-1.5 mr-2 text-xs font-semibold text-kebu-800 bg-kebu-100 border border-kebu-200 rounded-lg ">
+                  Health {{i}}
+                </kbd>
+              </div>
               <div class="flex gap-0.5 text-kebu-400">
                 <svg
                     class="h-5 w-5"
@@ -174,6 +184,11 @@
               Kennington Lane Cafe
             </p>
             <div class="mt-4">
+              <div class="flex flex-wrap pb-4">
+                <kbd v-for="i in  [1,2,3,4,5]" :key="i" class="px-2 py-1.5 mr-2 text-xs font-semibold text-kebu-800 bg-kebu-100 border border-kebu-200 rounded-lg ">
+                  Health {{i}}
+                </kbd>
+              </div>
               <div class="flex gap-0.5 text-kebu-400">
                 <svg
                     class="h-5 w-5"
