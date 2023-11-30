@@ -4,10 +4,10 @@
 
 <template>
   <section class="bg-white dark:bg-gray-900">
-    <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6 flex items-center flex-col  md:flex-row ">
-      <div class=" md:text-left text-center w-100 md:w-[30%] md:mb-0 mb-16">
-        <h2 class=" md:w-100 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Service shows good taste.</h2>
-        <p class="max-w-2xl mt-6 font-light  text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+    <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6 flex items-center flex-col  lg:flex-row ">
+      <div class=" lg:text-left md:text-center md:w-100 lg:w-[30%] md:mb-0 mb-16">
+        <h2 class=" lg:w-100 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Service shows good taste.</h2>
+        <p class="max-w-2xl mt-6 mb-6 md:mb-0 font-light  text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
           Lorem ipsum dolor sit amet, consectetur .
         </p>
       </div>

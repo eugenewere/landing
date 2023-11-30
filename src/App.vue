@@ -5,6 +5,7 @@ import Hero from "@/components/Hero/Hero.vue";
 import Aboutus from "@/components/AboutUs/AboutUs.vue";
 import Footer from "@/components/Footer/Footer.vue";
 import Counter from "@/components/Counter/Counter.vue";
+import Hero2 from "@/components/Hero/Hero2.vue";
 </script>
 
 <template>
@@ -13,6 +14,7 @@ import Counter from "@/components/Counter/Counter.vue";
     <Hero/>
     <Aboutus />
     <Counter />
+    <Hero2 />
     <Footer />
   </div>
 
