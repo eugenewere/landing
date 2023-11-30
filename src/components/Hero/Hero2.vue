@@ -1,8 +1,8 @@
 <template>
-  <section class="bg-white  dark:bg-gray-900 flex items-center justify-center">
+  <section class="bg-white bg-[url('@/assets/image/background-1.png')] bg-no-repeat bg-center bg-cover dark:bg-gray-900 flex items-center justify-center">
     <div class="grid max-w-screen-xl px-4 py-8 mx-auto my-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
       <div class="  lg:mt-0 lg:col-span-5 lg:flex">
-        <img class="w-3/5 mx-auto pt-5 lg:pt-0 lg:w-auto" src="@/assets/image/delivery-address-pana.svg" alt="mockup">
+        <img class="w-3/5 mx-auto pt-5 lg:pt-0 lg:w-auto" src="@/assets/image/photo-3.png" alt="mockup">
       </div>
       <div class="lg:ml-9 place-self-center lg:col-span-7">
         <h1 class="max-w-2xl mb-4 text-2xl font-extrabold sm:text-center md:text-left tracking-tight leading-none md:text-3xl xl:text-4xl dark:text-white">

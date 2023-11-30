@@ -35,6 +35,6 @@
 
 <style scoped>
 .counter_card {
-  @apply flex flex-col items-center justify-center border border-neutral-200 rounded-lg p-3 md:p-10 px-10 shadow-sm shadow-neutral-500
+  @apply flex flex-col items-center justify-center border border-neutral-200 rounded-lg p-3 md:p-10 px-10
 }
 </style>
