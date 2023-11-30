@@ -8,6 +8,7 @@ import Counter from "@/components/Counter/Counter.vue";
 import Hero2 from "@/components/Hero/Hero2.vue";
 import UserReview from "@/components/Review/UserReview.vue";
 import NewsLetter from "@/components/NewsLetter/NewsLetter.vue";
+import WhatCustomerSay from "@/components/WhatCustomerSay/WhatCustomerSay.vue";
 </script>
 
 <template>
@@ -21,6 +22,7 @@ import NewsLetter from "@/components/NewsLetter/NewsLetter.vue";
     <Counter />
     <Hero2 />
     <UserReview />
+    <WhatCustomerSay />
     <NewsLetter />
     <Footer />
   </div>

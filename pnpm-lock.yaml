@@ -11,6 +11,9 @@ dependencies:
   vue:
     specifier: ^3.3.4
     version: 3.3.9(typescript@5.2.2)
+  vue3-carousel:
+    specifier: ^0.3.1
+    version: 0.3.1(vue@3.3.9)
 
 devDependencies:
   '@rushstack/eslint-patch':
@@ -2489,6 +2492,14 @@ packages:
       semver: 7.5.4
       typescript: 5.2.2
     dev: true
+
+  /vue3-carousel@0.3.1(vue@3.3.9):
+    resolution: {integrity: sha512-86vUkNPBzL2PVuR9w6hUsI90ccFjLp+K8cSFpRTISf+SjUQY3fMHc5CFF5MUL62v1xYYm27zEBmQupO9VQx9Kw==}
+    peerDependencies:
+      vue: ^3.2.0
+    dependencies:
+      vue: 3.3.9(typescript@5.2.2)
+    dev: false
 
   /vue@3.3.9(typescript@5.2.2):
     resolution: {integrity: sha512-sy5sLCTR8m6tvUk1/ijri3Yqzgpdsmxgj6n6yl7GXXCXqVbmW2RCXe9atE4cEI6Iv7L89v5f35fZRRr5dChP9w==}

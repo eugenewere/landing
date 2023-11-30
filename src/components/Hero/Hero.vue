@@ -21,7 +21,7 @@
         </div>
       </div>
       <div class="  lg:mt-0 lg:col-span-5 lg:flex">
-        <img class="w-3/5 mx-auto pt-5 lg:pt-0 lg:w-auto" src="@/assets/image/delivery-address-pana.svg" alt="mockup">
+        <img class="w-3/5 mx-auto pt-5 lg:pt-0 lg:w-auto" src="@/assets/image/photo-1.png" alt="mockup">
       </div>
     </div>
   </section>
