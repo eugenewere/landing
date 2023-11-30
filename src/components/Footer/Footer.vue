@@ -19,16 +19,22 @@
             <h2 class="mb-6 text-lg font-semibold uppercase text-neutral-400">Menu</h2>
             <ul class="text-gray-600 dark:text-gray-400">
               <li class="mb-4">
-                <a href="#" class=" text-slate-100 hover:text-kebu-400 text-base">Home</a>
+                <a href="#home" class=" text-slate-100 hover:text-kebu-400 text-base">Home</a>
               </li>
               <li class="mb-4">
-                <a href="#" class=" text-slate-100 hover:text-kebu-400 text-base">About</a>
+                <a href="#about" class=" text-slate-100 hover:text-kebu-400 text-base">How it Works</a>
               </li>
               <li class="mb-4">
-                <a href="#" class=" text-slate-100 hover:text-kebu-400 text-base">Contact</a>
+                <a href="#delivery" class=" text-slate-100 hover:text-kebu-400 text-base">Delivery</a>
+              </li>
+              <li class="mb-4">
+                <a href="#reviews" class=" text-slate-100 hover:text-kebu-400 text-base">Reviews</a>
+              </li>
+              <li class="mb-4">
+                <a href="#blog" class=" text-slate-100 hover:text-kebu-400 text-base">Blog</a>
               </li>
               <li>
-                <a href="#" class=" text-slate-100 hover:text-kebu-400 text-base">Services</a>
+                <a href="#contact" class=" text-slate-100 hover:text-kebu-400 text-base">Contact</a>
               </li>
             </ul>
           </div>

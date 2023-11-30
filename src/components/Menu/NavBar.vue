@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import {initDropdowns} from "flowbite";
-import {onMounted} from "vue";
+import {onMounted, type Ref, ref} from "vue";
+const nav_item: Ref<number> = ref(0)
 
 onMounted(() => {
   initDropdowns();
@@ -26,22 +27,22 @@ onMounted(() => {
       <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
         <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0  md:bg-transparent dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
           <li>
-            <a href="#" class="nav_link" aria-current="page">Home</a>
+            <a href="#home" @click="nav_item = 0" class="nav_link" :class="nav_item === 0 ? 'text-kebu-500' : 'text-gray-900'" aria-current="page">Home</a>
           </li>
           <li>
-            <a href="#about" class="nav_link">How it Works</a>
+            <a href="#about" @click="nav_item = 1" class="nav_link" :class="nav_item === 1 ? 'text-kebu-500' : 'text-gray-900'">How it Works</a>
           </li>
           <li>
-            <a href="#delivery" class="nav_link">Delivery</a>
+            <a href="#delivery" @click="nav_item = 2" class="nav_link" :class="nav_item === 2 ? 'text-kebu-500' : 'text-gray-900'">Delivery</a>
           </li>
           <li>
-            <a href="#reviews" class="nav_link">Reviews</a>
+            <a href="#reviews" @click="nav_item = 3" class="nav_link" :class="nav_item === 3 ? 'text-kebu-500' : 'text-gray-900'">Reviews</a>
           </li>
           <li>
-            <a href="#blog" class="nav_link">Blog</a>
+            <a href="#blog" @click="nav_item = 4" class="nav_link" :class="nav_item === 4 ? 'text-kebu-500' : 'text-gray-900'">Blog</a>
           </li>
           <li>
-            <a href="#contact" class="nav_link">Contact</a>
+            <a href="#contact" @click="nav_item = 5 " class="nav_link" :class="nav_item === 5 ? 'text-kebu-500' : 'text-gray-900'">Contact</a>
           </li>
         </ul>
       </div>
@@ -49,8 +50,9 @@ onMounted(() => {
   </nav>
 </template>
 
+
 <style scoped>
 .nav_link{
-  @apply block py-2 px-3 md:p-0 text-gray-900 rounded hover:text-kebu-500 hover:bg-kebu-100 md:hover:bg-transparent  md:hover:text-kebu-500 md:dark:hover:text-kebu-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700
+  @apply block py-2 px-3 md:p-0  rounded hover:text-kebu-500 focus:text-kebu-500 [&.active]:text-kebu-500 hover:bg-kebu-100 md:hover:bg-transparent  md:hover:text-kebu-500 md:dark:hover:text-kebu-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700
 }
 </style>
