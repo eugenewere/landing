@@ -1,5 +1,5 @@
 <template>
-  <footer class="p-4  sm:p-6 bg-neutral-800">
+  <footer class="p-4 mt-7  sm:p-6 bg-neutral-800">
     <div class="mx-auto max-w-screen-xl pt-6">
       <div class="md:flex md:justify-between">
         <div class="mb-6 md:mb-0 lg:w-[50%]">
@@ -7,7 +7,7 @@
             <img src="@/assets/image/favicon/favicon-16.png" class="mr-3 h-8" alt="FlowBite Logo"/>
             <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Kebu</span>
           </a>
-          <h5 class="py-7 text-4xl font-extrabold tracking-tight leading-none md:text-2xl xl:text-3xl text-white">
+          <h5 class="py-7 sm:text-2xl text-xl font-extrabold tracking-tight leading-none md:text-2xl xl:text-3xl text-white">
             The Best Restaurants in Your Home
           </h5>
           <p class="pb-7 w-[60%] text-neutral-400">
