@@ -20,8 +20,30 @@
           </a>
         </div>
       </div>
-      <div class="  lg:mt-0 lg:col-span-5 lg:flex">
+      <div class="  lg:mt-0 lg:col-span-5 lg:flex relative">
         <img class="w-3/5 mx-auto pt-5 lg:pt-0 lg:w-auto" src="@/assets/image/photo-1.png" alt="mockup">
+
+        <div class="rotate-[15deg] transform-gpu rounded-xl bg-white flex items-center p-3 h-fit w-fit absolute right-0 top-1/4">
+          <div class="bg-kebu-400 rounded-full w-[40px] h-[40px] p-2 flex justify-center items-center">
+            <svg class="text-white" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M9 11.5a2.5 2.5 0 0 1 0-5a2.5 2.5 0 0 1 0 5M9 2C5.13 2 2 5.13 2 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7m9 15l5-5l-5-5v10Z"/>
+            </svg>
+          </div>
+          <div class="pl-3">
+            <h4 class="text-md text-black font-extrabold ">Delivery</h4>
+            <small class="mt-[5px] text-gray-400">to your house</small>
+          </div>
+        </div>
+        <div class="-rotate-[15deg] transform-gpu rounded-xl bg-white flex items-center p-3 h-fit w-fit absolute left-0 top-2/4">
+          <div class="bg-kebu-400 rounded-full w-[40px] h-[40px] p-2 flex justify-center items-center">
+          <svg class="text-white" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M19 7h3l-4-4l-4 4h3v14h2M5 13c-1.11 0-2 .89-2 2v4c0 1.11.89 2 2 2h4c1.11 0 2-.89 2-2v-4c0-1.11-.89-2-2-2m.2 1.5l1.06 1.05l-3.99 3.95l-2.53-2.55l1.07-1.05l1.47 1.49M5 3c-1.11 0-2 .89-2 2v4c0 1.11.89 2 2 2h4c1.11 0 2-.89 2-2V5c0-1.11-.89-2-2-2M5 5h4v4H5Z"/></svg>
+          </div>
+          <div class="pl-3">
+            <h4 class="text-md text-black font-extrabold ">Your Product</h4>
+            <small class="mt-[5px] text-gray-400">need to be delivered</small>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
