@@ -3,7 +3,7 @@
     <div class="container mx-auto py-12  lg:py-16 xl:py-24">
       <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:items-center lg:gap-16">
         <div class="w-full text-center lg:text-left">
-          <h2 class=" mb-4 text-2xl font-extrabold text-center lg:text-left tracking-tight leading-none md:text-3xl xl:text-4xl dark:text-white">
+          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             12 Best Restaurants in Your City
           </h2>
 

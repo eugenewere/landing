@@ -2,7 +2,7 @@
   <section class="bg-white dark:bg-gray-900 py-12" id="blog">
     <div class="container mx-auto px-4 pt-12 ">
       <div class="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
-        <h2 class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
           Latest news and events
         </h2>
       </div>
