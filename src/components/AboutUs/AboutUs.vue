@@ -50,19 +50,19 @@ import {ref} from "vue";
 const data = ref(
     [
       {
-        name: 'Select Restaurant',
+        name: 'Place an order',
         id: 1,
         desc: 'Non enim praesent elementum facilisis leo vel fringilla. Lectus proin nibh nisl condimentum id. Quis varius quam quisque id diam vel.',
         img: "@/assets/image/about/Illustration-1.png"
       },
       {
-        name: 'Select menu',
+        name: 'Rider pickup',
         id: 2,
         desc: 'Non enim praesent elementum facilisis leo vel fringilla. Lectus proin nibh nisl condimentum id. Quis varius quam quisque id diam vel.',
         img: "@/assets/image/about/Illustration-2.png"
       },
       {
-        name: 'Wait for delivery',
+        name: 'Delivery completion',
         id: 3,
         desc: 'Non enim praesent elementum facilisis leo vel fringilla. Lectus proin nibh nisl condimentum id. Quis varius quam quisque id diam vel.',
         img: "@/assets/image/about/Illustration-3.png"
