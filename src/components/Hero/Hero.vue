@@ -6,7 +6,7 @@
           Elevate your delivery experience with Kebu.
         </h1>
         <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-md lg:text-lg dark:text-gray-400">
-          We redefine standards through swift, seamless, and reliable service. Our dedicated riders and advanced technology ensure efficient package delivery, offering unparalleled convenience anytime, anywhere. Join us in shaping the future of delivery excellence at your doorstep.
+          We redefine standards through swift, seamless, and reliable service. Our dedicated riders and advanced technology ensure efficient package delivery, offering unparalleled convenience anytime and anywhere. Join us in shaping the future of delivery excellence at your doorstep.
         </p>
         <div class="flex justify-center lg:justify-start">
           <a href="#patnership" class="inline-flex app_transition items-center justify-center px-5 py-3 lg:px-5 lg:py-3 mr-3 text-sm lg:text-base font-medium text-center text-white rounded-lg bg-kebu-400 hover:bg-kebu-500 focus:ring-4 focus:ring-kebu-300 dark:focus:ring-kebu-900">

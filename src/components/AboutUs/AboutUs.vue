@@ -4,7 +4,7 @@
       <div class="w-100 text-center  mb-8 lg:mb-16">
         <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">How It Works</h2>
         <p class="text-gray-500 sm:text-xl dark:text-gray-400">
-          Magna sit amet purus gravida quis blandit turpis cursus. Venenatis.
+          A delivery platform tailored to meet the needs of businesses, whether in formal or informal settings.
         </p>
       </div>
       <div class="space-y-8 md:grid md:grid-cols-1 lg:grid-cols-3 md:gap-12 md:space-y-0 text-center">
