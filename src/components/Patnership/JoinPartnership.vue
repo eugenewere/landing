@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-neutral-950 py-12">
+  <section class="bg-neutral-950 py-12" id="patnership">
     <div class="container mx-auto py-7 px-5 md:px-0">
       <h2 class=" lg:w-100 text-4xl text-center text-white tracking-tight font-extrabold">
         Want to Join Partnership?
