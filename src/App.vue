@@ -11,6 +11,7 @@ import JoinPartnership from "@/components/Patnership/JoinPartnership.vue";
 import NewsBlog from "@/components/Blog/NewsBlog.vue";
 import ProspectsCounter from "@/components/Counter/ProspectsCounter.vue";
 import WhatCustomerSay from "@/components/WhatCustomerSay/WhatCustomerSay.vue";
+import ProcessTransition from "@/components/Transition/ProcessTransition.vue";
 </script>
 
 <template>
@@ -19,7 +20,8 @@ import WhatCustomerSay from "@/components/WhatCustomerSay/WhatCustomerSay.vue";
       <Hero/>
 
     <Aboutus />
-    <UserReview />
+<!--    <UserReview />-->
+    <ProcessTransition />
     <Hero2 />
     <ProspectsCounter/>
     <WhatCustomerSay />
