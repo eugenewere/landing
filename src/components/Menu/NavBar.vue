@@ -36,14 +36,14 @@ onMounted(() => {
             <a href="#delivery" @click="nav_item = 2" class="nav_link" :class="nav_item === 2 ? 'text-kebu-500' : 'text-gray-900'">Delivery</a>
           </li>
           <li>
-            <a href="#reviews" @click="nav_item = 3" class="nav_link" :class="nav_item === 3 ? 'text-kebu-500' : 'text-gray-900'">Reviews</a>
+            <a href="#patnership" @click="nav_item = 3" class="nav_link" :class="nav_item === 3 ? 'text-kebu-500' : 'text-gray-900'">Join</a>
           </li>
-          <li>
-            <a href="#blog" @click="nav_item = 4" class="nav_link" :class="nav_item === 4 ? 'text-kebu-500' : 'text-gray-900'">Blog</a>
-          </li>
-          <li>
-            <a href="#contact" @click="nav_item = 5 " class="nav_link" :class="nav_item === 5 ? 'text-kebu-500' : 'text-gray-900'">Contact</a>
-          </li>
+<!--          <li>-->
+<!--            <a href="#blog" @click="nav_item = 4" class="nav_link" :class="nav_item === 4 ? 'text-kebu-500' : 'text-gray-900'">Blog</a>-->
+<!--          </li>-->
+<!--          <li>-->
+<!--            <a href="#contact" @click="nav_item = 5 " class="nav_link" :class="nav_item === 5 ? 'text-kebu-500' : 'text-gray-900'">Contact</a>-->
+<!--          </li>-->
         </ul>
 
       </div>

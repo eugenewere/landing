@@ -1,21 +1,17 @@
 <script lang="ts" setup>
 import { VisSingleContainer, VisDonut } from '@unovis/vue'
-import type Datum from '@unovis/ts'
-import {ref} from "vue";
-// const props = defineProps<{ data: number[] }>()
 const value = (d: number) => d
 const color = (d: number, i: number) => ['#f27a0e','white'][i]
 
 </script>
 <style >
 :root{
-  --vis-donut-central-label-font-size: 2.5rem;
-  --vis-donut-central-label-text-color: black;
-  --vis-donut-central-label-font-weight: bold;
-
-  --vis-donut-central-sub-label-font-size: 1rem;
-  --vis-donut-central-sub-label-text-color: #5b5f6d;
-  --vis-donut-central-sub-label-font-weight: 500;
+  --vis-donut-central-label-font-size: 2.5rem !important;
+  --vis-donut-central-label-text-color: black !important;
+  --vis-donut-central-label-font-weight: bold !important;
+  --vis-donut-central-sub-label-font-size: 1rem !important;
+  --vis-donut-central-sub-label-text-color: #5b5f6d !important;
+  --vis-donut-central-sub-label-font-weight: 500 !important;
 }
 </style>
 <template>

@@ -85,14 +85,14 @@
                 <a class=" text-slate-100 hover:text-kebu-400 text-base" href="#delivery">Delivery</a>
               </li>
               <li class="ml-4">
-                <a class=" text-slate-100 hover:text-kebu-400 text-base" href="#reviews">Reviews</a>
+                <a class=" text-slate-100 hover:text-kebu-400 text-base" href="#patnership">Join</a>
               </li>
-              <li class="ml-4">
-                <a class=" text-slate-100 hover:text-kebu-400 text-base" href="#blog">Blog</a>
-              </li>
-              <li class="ml-4">
-                <a class=" text-slate-100 hover:text-kebu-400 text-base" href="#contact">Contact</a>
-              </li>
+<!--              <li class="ml-4">-->
+<!--                <a class=" text-slate-100 hover:text-kebu-400 text-base" href="#blog">Blog</a>-->
+<!--              </li>-->
+<!--              <li class="ml-4">-->
+<!--                <a class=" text-slate-100 hover:text-kebu-400 text-base" href="#contact">Contact</a>-->
+<!--              </li>-->
             </ul>
       </div>
       <hr class="my-6  sm:mx-auto border-neutral-600 lg:my-8" />

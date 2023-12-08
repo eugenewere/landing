@@ -51,7 +51,55 @@
           </ul>
         </div>
       </div>
+     <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 pt-8">
+          <div class="">
+              <VisSingleContainer :data="[99, 10]" >
+                <VisDonut
+                    :value="value" :color="color"
+                    :cornerRadius="10"
+                    :centralLabel="`${99} %`"
+                    centralSubLabel="Time"
+                />
+              </VisSingleContainer>
+          </div>
+          <div class="">
+              <VisSingleContainer :data="[99, 1]" >
+                <VisDonut
+                    :value="value" :color="color"
+                    :cornerRadius="10"
+                    :centralLabel="`${99} %`"
+                    centralSubLabel="Cost"
+                />
+              </VisSingleContainer>
+          </div>
+          <div class="">
+             <VisSingleContainer :data="[99, 3]" >
+                <VisDonut
+                    :value="value" :color="color"
+                    :cornerRadius="10"
+                    :centralLabel="`${99} %`"
+                    centralSubLabel=" Convenience & Reliability"
+                />
+              </VisSingleContainer>
+          </div>
+        </div>
     </div>
   </section>
-</template><script lang="ts" setup>
+</template>
+<style >
+:root{
+  --vis-donut-central-label-font-size: 2.5rem !important;
+  --vis-donut-central-label-text-color: black !important;
+  --vis-donut-central-label-font-weight: bold !important;
+  --vis-donut-central-sub-label-font-size: 1rem !important;
+  --vis-donut-central-sub-label-text-color: #5b5f6d !important;
+  --vis-donut-central-sub-label-font-weight: bold !important;
+}
+</style>
+<script lang="ts" setup>
+import {VisDonut, VisSingleContainer} from "@unovis/vue";
+const value = (d: number) => d
+const color = (d: number, i: number) => ['#f8991d','white'][i]
+
+
 </script>
