@@ -12,6 +12,7 @@ import NewsBlog from "@/components/Blog/NewsBlog.vue";
 import ProspectsCounter from "@/components/Counter/ProspectsCounter.vue";
 import WhatCustomerSay from "@/components/WhatCustomerSay/WhatCustomerSay.vue";
 import ProcessTransition from "@/components/Transition/ProcessTransition.vue";
+import Infograpgics from "@/components/Infographics/Infograpgics.vue";
 </script>
 
 <template>
@@ -20,14 +21,16 @@ import ProcessTransition from "@/components/Transition/ProcessTransition.vue";
       <Hero/>
 
     <Aboutus />
+    <Infograpgics />
 <!--    <UserReview />-->
     <ProcessTransition />
-    <Hero2 />
-    <ProspectsCounter/>
-    <WhatCustomerSay />
     <JoinPartnership />
-    <NewsBlog />
-    <NewsLetter />
+    <Hero2 />
+<!--    <ProspectsCounter/>-->
+<!--    <WhatCustomerSay />-->
+
+<!--    <NewsBlog />-->
+<!--    <NewsLetter />-->
     <Footer />
   </div>
 
