@@ -10,7 +10,7 @@ import Hero2 from "@/components/Hero/Hero2.vue";
 </script>
 
 <template>
-      <NavBar />
+      <NavBar :show="true" />
       <Hero />
       <Aboutus />
       <ProcessTransition />

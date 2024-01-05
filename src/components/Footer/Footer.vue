@@ -3,10 +3,10 @@
     <div class="mx-auto max-w-screen-xl pt-6">
       <div class="md:flex ">
         <div class="mb-6 md:mb-0 lg:w-[50%]">
-          <a class="flex items-center" href="#">
+          <router-link :to="{name: 'home'}" class="flex items-center">
             <img src="@/assets/image/kebu/playstore.png" class="mr-3 h-12 rounded overflow-hidden" alt="Kebu Logo"/>
 <!--             <span class="self-center text-3xl font-extrabold whitespace-nowrap text-kebu-400">Kebu</span>-->
-          </a>
+          </router-link>
 <!--          <h6 class="py-7 sm:text-2xl text-xl font-extrabold tracking-tight leading-none md:text-2xl xl:text-3xl text-white">-->
 <!--            Deliver Value, Deliver Convenience-->
 <!--          </h6>-->
@@ -74,7 +74,7 @@
         </div>
       </div>
       <div class="w-full flex justify-end">
-        <ul class="text-gray-600 dark:text-gray-400 flex ">
+        <ul  v-if="props.show" class="text-gray-600 dark:text-gray-400 flex ">
               <li class="ml-4">
                 <a class=" text-slate-100 hover:text-kebu-400 text-sm" href="#home">Home</a>
               </li>
@@ -88,7 +88,7 @@
                 <a class=" text-slate-100 hover:text-kebu-400 text-sm" href="#patnership">Join</a>
               </li>
               <li class="ml-4">
-                <a class=" text-slate-100 hover:text-kebu-400 text-sm" href="#blog">Terms & Conditions</a>
+                <router-link :to="{name: 'terms'}" class=" text-slate-100 hover:text-kebu-400 text-sm" >Terms & Conditions</router-link>
               </li>
 	        <!--              <li class="ml-4">-->
 	        <!--                <a class=" text-slate-100 hover:text-kebu-400 text-sm" href="#contact">Contact</a>-->
@@ -99,7 +99,7 @@
       <div class="sm:flex sm:items-center sm:justify-between">
         <span class="text-sm text-neutral-500 sm:text-center dark:text-neutral-400">
           © {{ new Date().getFullYear() }}
-          <a class="hover:underline" href="/">Kebu™</a>. All Rights Reserved.
+          <router-link :to="{name: 'home'}" class="hover:underline">Kebu™</router-link>. All Rights Reserved.
         </span>
         <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
 <!--          <a class="text-neutral-500 hover:text-kebu-400 dark:hover:text-white" href="#" target="_blank">-->
@@ -139,4 +139,8 @@
 
 </style>
 <script lang="ts" setup>
+const props = withDefaults(defineProps<{ show: boolean }>(), {
+  show: true
+})
+
 </script>
