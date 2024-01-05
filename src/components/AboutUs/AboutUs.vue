@@ -12,8 +12,8 @@
         <div v-for="i in data" :key="i.id" class="flex items-center flex-col">
           <div class="about-svg-wrappe mb-3">
             <img v-if="i.id === 1" src="@/assets/image/about/Illustration-1.png" alt="">
-            <img v-else-if="i.id === 2" src="@/assets/image/about/Illustration-2.png" alt="">
-            <img v-else-if="i.id === 3" src="@/assets/image/about/illustration-3.png" alt="">
+            <img v-else-if="i.id === 3" src="@/assets/image/about/Illustration-2.png" alt="">
+            <img v-else-if="i.id === 2" src="@/assets/image/about/illustration-3.png" alt="">
           </div>
           <h3 class="about-header">{{i.name}}</h3>
           <p class="about-txt">
@@ -55,13 +55,15 @@ const data = ref(
         name: 'Rider pickup',
         id: 2,
         desc: 'Effortlessly place an order by providing your package pickup point and delivery item details.',
-        img: "@/assets/image/about/Illustration-2.png"
+        img: "@/assets/image/about/Illustration-3.png"
+	      
       },
       {
         name: 'Delivery completion',
         id: 3,
         desc: 'Kebu rider ensures safe and timely delivery of your package, providing unmatched convenience at an unbelievably affordable rate.',
-        img: "@/assets/image/about/Illustration-3.png"
+        
+	      img: "@/assets/image/about/Illustration-2.png"
       }
     ]
 )

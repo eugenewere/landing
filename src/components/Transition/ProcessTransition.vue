@@ -53,12 +53,13 @@
       </div>
      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 pt-8">
           <div class="">
-              <VisSingleContainer :data="[99, 10]" >
+              <VisSingleContainer :data="[99, 1]" >
                 <VisDonut
                     :value="value" :color="color"
                     :cornerRadius="10"
                     :centralLabel="`${99} %`"
                     centralSubLabel="Time"
+                    :arcWidth="10"
                 />
               </VisSingleContainer>
           </div>
@@ -69,16 +70,18 @@
                     :cornerRadius="10"
                     :centralLabel="`${99} %`"
                     centralSubLabel="Cost"
+                    :arcWidth="10"
                 />
               </VisSingleContainer>
           </div>
           <div class="">
-             <VisSingleContainer :data="[99, 3]" >
+             <VisSingleContainer :data="[99, 1]" >
                 <VisDonut
                     :value="value" :color="color"
                     :cornerRadius="10"
                     :centralLabel="`${99} %`"
                     centralSubLabel=" Convenience & Reliability"
+                    :arcWidth="10"
                 />
               </VisSingleContainer>
           </div>
