@@ -48,7 +48,8 @@ const props = withDefaults(defineProps<{ show: boolean }>(), {
 <!--	        <li>-->
 <!--		        <router-link :to="{name: 'terms'}" :class="nav_item === 4 ? 'text-kebu-500' : 'text-gray-900'" class="nav_link" @click="nav_item = 4"> Terms & Conditions</router-link>-->
 <!--          </li>-->
-	        
+
+
 	        <!--          <li>-->
 	        <!--            <a href="#blog" @click="nav_item = 4" class="nav_link" :class="nav_item === 4 ? 'text-kebu-500' : 'text-gray-900'">Blog</a>-->
 	        <!--          </li>-->
