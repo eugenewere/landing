@@ -9,7 +9,7 @@
           Don't Wait Tomorrow, Deliver Now
         </h1>
         <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-          I will share support text tomorrow. Change order now button to Get Started and anchor to the partnership section.
+          With zero initial investment, our platform provides access to a network of verified, professional riders trained to provide top-notch delivery services.
         </p>
 <!--        <div class="flex justify-center lg:justify-start">-->
 <!--          <a href="#" class="inline-flex app_transition items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-kebu-400 hover:bg-kebu-500 focus:ring-4 focus:ring-kebu-300 dark:focus:ring-kebu-900">-->

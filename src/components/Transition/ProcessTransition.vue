@@ -53,34 +53,37 @@
       </div>
      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 pt-8">
           <div class="">
-              <VisSingleContainer :data="[99, 1]" >
+              <VisSingleContainer :data="[100, 0]" >
                 <VisDonut
                     :value="value" :color="color"
                     :cornerRadius="10"
-                    :centralLabel="`${99} %`"
-                    centralSubLabel="Time"
+                    :centralLabel="`${100} %`"
+                    :showBackground="false"
+                    centralSubLabel="Convenience"
                     :arcWidth="10"
                 />
               </VisSingleContainer>
           </div>
           <div class="">
-              <VisSingleContainer :data="[99, 1]" >
+              <VisSingleContainer :data="[50, 50]" >
                 <VisDonut
                     :value="value" :color="color"
                     :cornerRadius="10"
-                    :centralLabel="`${99} %`"
-                    centralSubLabel="Cost"
+                    :centralLabel="`${50} %`"
+                     :showBackground="false"
+                    centralSubLabel="Cost Saving"
                     :arcWidth="10"
                 />
               </VisSingleContainer>
           </div>
           <div class="">
-             <VisSingleContainer :data="[99, 1]" >
+             <VisSingleContainer :data="[100, 0]" >
                 <VisDonut
                     :value="value" :color="color"
                     :cornerRadius="10"
-                    :centralLabel="`${99} %`"
-                    centralSubLabel=" Convenience & Reliability"
+                    :centralLabel="`${100} %`"
+                     :showBackground="false"
+                    centralSubLabel="Reliability"
                     :arcWidth="10"
                 />
               </VisSingleContainer>
@@ -94,12 +97,13 @@
   --vis-donut-central-label-font-size: 2.5rem !important;
   --vis-donut-central-label-text-color: black !important;
   --vis-donut-central-label-font-weight: bold !important;
-  --vis-donut-central-sub-label-font-size: 1rem !important;
+  --vis-donut-central-sub-label-font-size: 1.2rem !important;
   --vis-donut-central-sub-label-text-color: #5b5f6d !important;
   --vis-donut-central-sub-label-font-weight: bold !important;
 }
 </style>
 <script lang="ts" setup>
+// #E7E9F3
 import {VisDonut, VisSingleContainer} from "@unovis/vue";
 const value = (d: number) => d
 const color = (d: number, i: number) => ['#f8991d','white'][i]

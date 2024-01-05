@@ -40,7 +40,7 @@ onMounted(() => {
             <a :class="nav_item === 3 ? 'text-kebu-500' : 'text-gray-900'" class="nav_link" href="#patnership" @click="nav_item = 3">Join</a>
           </li>
 	        <li>
-            <a :class="nav_item === 4 ? 'text-kebu-500' : 'text-gray-900'" class="nav_link" href="#patnership" @click="nav_item = 4">Terms & Conditions</a>
+		        <router-link :to="{name: 'terms'}" :class="nav_item === 4 ? 'text-kebu-500' : 'text-gray-900'" class="nav_link" @click="nav_item = 4"> Terms & Conditions</router-link>
           </li>
 	        
 	        <!--          <li>-->
