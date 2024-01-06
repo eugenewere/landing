@@ -33,13 +33,13 @@ const details = "Contrary to popular belief, Lorem Ipsum is not simply random te
 		                <svg :class="current_tab === 'profile_tab' ? 'text-white' : 'text-gray-500 dark:text-gray-400'" aria-hidden="true" class="w-4 h-4 me-2 " fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
 		                    <path d="M10 0a10 10 0 1 0 10 10A10.011 10.011 0 0 0 10 0Zm0 5a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm0 13a8.949 8.949 0 0 1-4.951-1.488A3.987 3.987 0 0 1 9 13h2a3.987 3.987 0 0 1 3.951 3.512A8.949 8.949 0 0 1 10 18Z" />
 		                </svg>
-		                All
+		                General
 		            </div>
 		        </li>
 		        <li role="presentation">
 		            <div id="dashboard_tab" :class="current_tab === 'dashboard_tab' ? 'bg-kebu-500 text-white hover:text-white' : 'bg-gray-50 hover:text-gray-900  hover:bg-gray-100'" aria-controls="dashboard" aria-selected="false" class="inline-flex items-center px-4 py-3 rounded-lg  w-full " data-tabs-target="#dashboard" role="tab" type="button" @click="current_tab = 'dashboard_tab'">
 		                <svg :class="current_tab === 'dashboard_tab' ? 'text-white' : 'text-gray-500 dark:text-gray-400'" aria-hidden="true" class="w-4 h-4 me-2 " fill="currentColor" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><path d="M6.143 0H1.857A1.857 1.857 0 0 0 0 1.857v4.286C0 7.169.831 8 1.857 8h4.286A1.857 1.857 0 0 0 8 6.143V1.857A1.857 1.857 0 0 0 6.143 0Zm10 0h-4.286A1.857 1.857 0 0 0 10 1.857v4.286C10 7.169 10.831 8 11.857 8h4.286A1.857 1.857 0 0 0 18 6.143V1.857A1.857 1.857 0 0 0 16.143 0Zm-10 10H1.857A1.857 1.857 0 0 0 0 11.857v4.286C0 17.169.831 18 1.857 18h4.286A1.857 1.857 0 0 0 8 16.143v-4.286A1.857 1.857 0 0 0 6.143 10Zm10 0h-4.286A1.857 1.857 0 0 0 10 11.857v4.286c0 1.026.831 1.857 1.857 1.857h4.286A1.857 1.857 0 0 0 18 16.143v-4.286A1.857 1.857 0 0 0 16.143 10Z" /></svg>
-		                Customer
+		                Client
 		            </div>
 		        </li>
 		        <li role="presentation">
@@ -55,10 +55,10 @@ const details = "Contrary to popular belief, Lorem Ipsum is not simply random te
 
 		    <div id="default-tab-content" class="px-6  text-medium text-gray-600   rounded-lg w-full">
 		        <div v-if="current_tab === 'profile_tab'" id="profile" aria-labelledby="profile-tab" class=" px-4 pb-4 rounded-lg " role="tabpanel">
-				        <p class="text-sm  leading-9 text-justify">All, {{ details }}</p>
+				        <p class="text-sm  leading-9 text-justify">Genral, {{ details }}</p>
 		        </div>
 				    <div v-if="current_tab === 'dashboard_tab'" id="dashboard" aria-labelledby="dashboard-tab" class=" px-4 pb-4 rounded-lg " role="tabpanel">
-				        <p class="text-sm  leading-9 text-justify">Customer, {{ details }}</p>
+				        <p class="text-sm  leading-9 text-justify">Client, {{ details }}</p>
 				    </div>
 				    <div v-if="current_tab === 'settings_tab'" id="settings" aria-labelledby="settings-tab" class=" px-4 pb-4 rounded-lg " role="tabpanel">
                 <p class="text-sm  leading-9 text-justify">Rider, {{ details }}</p>
