@@ -4,15 +4,39 @@
       <div class="md:flex ">
         <div class="mb-6 md:mb-0 lg:w-[50%]">
           <router-link :to="{name: 'home'}" class="flex items-center">
-            <img src="@/assets/image/kebu/playstore.png" class="mr-3 h-12 rounded overflow-hidden" alt="Kebu Logo"/>
-<!--             <span class="self-center text-3xl font-extrabold whitespace-nowrap text-kebu-400">Kebu</span>-->
+            <img alt="Kebu Logo" class="mr-3 h-12 rounded overflow-hidden" src="@/assets/image/kebu/playstore.png" />
+	          <!--             <span class="self-center text-3xl font-extrabold whitespace-nowrap text-kebu-400">Kebu</span>-->
           </router-link>
-<!--          <h6 class="py-7 sm:text-2xl text-xl font-extrabold tracking-tight leading-none md:text-2xl xl:text-3xl text-white">-->
-<!--            Deliver Value, Deliver Convenience-->
-<!--          </h6>-->
+	        <!--          <h6 class="py-7 sm:text-2xl text-xl font-extrabold tracking-tight leading-none md:text-2xl xl:text-3xl text-white">-->
+	        <!--            Deliver Value, Deliver Convenience-->
+	        <!--          </h6>-->
           <p class="pb-7 w-[60%] text-neutral-400 mt-3">
 							Deliver Value, Deliver Convenience
           </p>
+          <div class="">
+            <h2 class="mb-3 text-base font-semibold uppercase text-neutral-400">Contact</h2>
+            <ul class="text-gray-600 dark:text-gray-400 grid grid-cols-1">
+              <li class="mb-4">
+                <a class=" flex text-slate-100 hover:text-kebu-400 text-sm" href="mailto:info@kebu.io">
+	                <strong class="flex items-center mr-1">
+		                <svg class="mr-1" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24"><path fill="currentColor" d="M12 22q-2.075 0-3.9-.788t-3.175-2.137q-1.35-1.35-2.137-3.175T2 12q0-2.075.788-3.9t2.137-3.175q1.35-1.35 3.175-2.137T12 2q2.075 0 3.9.788t3.175 2.137q1.35 1.35 2.138 3.175T22 12v1.45q0 1.475-1.012 2.513T18.5 17q-.875 0-1.65-.375t-1.3-1.075q-.725.725-1.638 1.088T12 17q-2.075 0-3.537-1.463T7 12q0-2.075 1.463-3.537T12 7q2.075 0 3.538 1.463T17 12v1.45q0 .65.425 1.1T18.5 15q.65 0 1.075-.45t.425-1.1V12q0-3.35-2.325-5.675T12 4Q8.65 4 6.325 6.325T4 12q0 3.35 2.325 5.675T12 20h5v2zm0-7q1.25 0 2.125-.875T15 12q0-1.25-.875-2.125T12 9q-1.25 0-2.125.875T9 12q0 1.25.875 2.125T12 15"/></svg>
+<!--		                Email:-->
+	                </strong>
+	                info@kebu.io
+                </a>
+              </li>
+               <li class="mb-4">
+                <a class=" flex text-slate-100 hover:text-kebu-400 text-sm" href="tel:+254 111 48 3335">
+	                <strong class="flex items-center mr-1">
+		                <svg class="mr-1" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24"><path fill="currentColor" d="M19.95 21q-3.125 0-6.175-1.362t-5.55-3.863q-2.5-2.5-3.862-5.55T3 4.05q0-.45.3-.75t.75-.3H8.1q.35 0 .625.238t.325.562l.65 3.5q.05.4-.025.675T9.4 8.45L6.975 10.9q.5.925 1.187 1.787t1.513 1.663q.775.775 1.625 1.438T13.1 17l2.35-2.35q.225-.225.588-.337t.712-.063l3.45.7q.35.1.575.363T21 15.9v4.05q0 .45-.3.75t-.75.3"/></svg>
+<!--		                Phone:-->
+	                </strong>
+	                +254 111 48 3335
+                </a>
+              </li>
+              
+            </ul>
+          </div>
         </div>
         <div class="grid grid-cols-1 gap-4  ">
 <!--          <div class="">-->
@@ -74,7 +98,7 @@
         </div>
       </div>
       <div class="w-full flex justify-end">
-        <ul  v-if="props.show" class="text-gray-600 dark:text-gray-400 flex ">
+        <ul v-if="props.show" class="text-gray-600 dark:text-gray-400 flex ">
               <li class="ml-4">
                 <a class=" text-slate-100 hover:text-kebu-400 text-sm" href="#home">Home</a>
               </li>
@@ -88,7 +112,7 @@
                 <a class=" text-slate-100 hover:text-kebu-400 text-sm" href="#patnership">Join</a>
               </li>
               <li class="ml-4">
-                <router-link :to="{name: 'terms'}" class=" text-slate-100 hover:text-kebu-400 text-sm" >Terms & Conditions</router-link>
+                <router-link :to="{name: 'terms'}" class=" text-slate-100 hover:text-kebu-400 text-sm">Terms & Conditions</router-link>
               </li>
 	        <!--              <li class="ml-4">-->
 	        <!--                <a class=" text-slate-100 hover:text-kebu-400 text-sm" href="#contact">Contact</a>-->
@@ -140,7 +164,7 @@
 </style>
 <script lang="ts" setup>
 const props = withDefaults(defineProps<{ show: boolean }>(), {
-  show: true
+	show: true
 })
 
 </script>
