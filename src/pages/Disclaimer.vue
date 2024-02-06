@@ -7,7 +7,9 @@ import { computed, ref } from 'vue'
 
 const mdFile = ref('')
 marked.setOptions({
-  breaks: true
+  breaks: true,
+  pedantic: true,
+  gfm: true,
 });
 const fetchFileData = async () => {
   fetch('/docs/disclaimer.md')
