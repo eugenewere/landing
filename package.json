@@ -15,6 +15,7 @@
     "@unovis/ts": "^1.3.1",
     "@unovis/vue": "^1.3.1",
     "flowbite": "^2.2.0",
+    "marked": "^12.0.0",
     "vue": "^3.3.4",
     "vue-router": "4",
     "vue3-carousel": "^0.3.1"

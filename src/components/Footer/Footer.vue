@@ -114,6 +114,10 @@
               <li class="ml-4">
                 <router-link :to="{name: 'terms'}" class=" text-slate-100 hover:text-kebu-400 text-sm">Terms & Conditions</router-link>
               </li>
+            <li class="ml-4">
+                <router-link :to="{name: 'disclaimer'}" class=" text-slate-100 hover:text-kebu-400 text-sm">Disclaimer</router-link>
+              </li>
+          
 	        <!--              <li class="ml-4">-->
 	        <!--                <a class=" text-slate-100 hover:text-kebu-400 text-sm" href="#contact">Contact</a>-->
 	        <!--              </li>-->
