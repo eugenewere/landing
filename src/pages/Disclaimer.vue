@@ -64,13 +64,13 @@ const getMarkdown = computed((val) => marked(val))
   
       <div class="md:flex">
   
-        <div class=" px-4 pb-4  ">
+        <div class=" px-4 pb-4 h-[100vh] ">
            <div class="text-stone-900 text-justify md_file leading-8 space-y-6" v-html="mdFile"></div>
         </div>
         
       </div>
     </div>
   </section>
-  <Footer :show="false" />
+  <Footer :show="true" />
 </template>
 
